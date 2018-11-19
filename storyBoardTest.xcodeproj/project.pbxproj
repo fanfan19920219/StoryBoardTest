@@ -14,6 +14,10 @@
 		D4E9FB0D21A28D4800BDA2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E9FB0B21A28D4800BDA2A0 /* LaunchScreen.storyboard */; };
 		D4E9FB1021A28D4800BDA2A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9FB0F21A28D4800BDA2A0 /* main.m */; };
 		D4E9FB1A21A28D4800BDA2A0 /* storyBoardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9FB1921A28D4800BDA2A0 /* storyBoardTestTests.m */; };
+		D4E9FB2621A28F0900BDA2A0 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9FB2521A28F0900BDA2A0 /* twoViewController.m */; };
+		D4E9FB2921A2933F00BDA2A0 /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9FB2821A2933F00BDA2A0 /* threeViewController.m */; };
+		D4E9FB2C21A2940900BDA2A0 /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9FB2B21A2940900BDA2A0 /* fourViewController.m */; };
+		D4E9FB2F21A2989800BDA2A0 /* fiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9FB2E21A2989800BDA2A0 /* fiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		D4E9FB1521A28D4800BDA2A0 /* storyBoardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyBoardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E9FB1921A28D4800BDA2A0 /* storyBoardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyBoardTestTests.m; sourceTree = "<group>"; };
 		D4E9FB1B21A28D4800BDA2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E9FB2421A28F0900BDA2A0 /* twoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		D4E9FB2521A28F0900BDA2A0 /* twoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		D4E9FB2721A2933F00BDA2A0 /* threeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
+		D4E9FB2821A2933F00BDA2A0 /* threeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
+		D4E9FB2A21A2940900BDA2A0 /* fourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
+		D4E9FB2B21A2940900BDA2A0 /* fourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
+		D4E9FB2D21A2989800BDA2A0 /* fiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fiveViewController.h; sourceTree = "<group>"; };
+		D4E9FB2E21A2989800BDA2A0 /* fiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,14 @@
 				D4E9FB0121A28D4600BDA2A0 /* AppDelegate.m */,
 				D4E9FB0321A28D4600BDA2A0 /* ViewController.h */,
 				D4E9FB0421A28D4600BDA2A0 /* ViewController.m */,
+				D4E9FB2421A28F0900BDA2A0 /* twoViewController.h */,
+				D4E9FB2521A28F0900BDA2A0 /* twoViewController.m */,
+				D4E9FB2721A2933F00BDA2A0 /* threeViewController.h */,
+				D4E9FB2821A2933F00BDA2A0 /* threeViewController.m */,
+				D4E9FB2A21A2940900BDA2A0 /* fourViewController.h */,
+				D4E9FB2B21A2940900BDA2A0 /* fourViewController.m */,
+				D4E9FB2D21A2989800BDA2A0 /* fiveViewController.h */,
+				D4E9FB2E21A2989800BDA2A0 /* fiveViewController.m */,
 				D4E9FB0621A28D4600BDA2A0 /* Main.storyboard */,
 				D4E9FB0921A28D4800BDA2A0 /* Assets.xcassets */,
 				D4E9FB0B21A28D4800BDA2A0 /* LaunchScreen.storyboard */,
@@ -205,7 +225,11 @@
 			files = (
 				D4E9FB0521A28D4600BDA2A0 /* ViewController.m in Sources */,
 				D4E9FB1021A28D4800BDA2A0 /* main.m in Sources */,
+				D4E9FB2F21A2989800BDA2A0 /* fiveViewController.m in Sources */,
+				D4E9FB2C21A2940900BDA2A0 /* fourViewController.m in Sources */,
+				D4E9FB2921A2933F00BDA2A0 /* threeViewController.m in Sources */,
 				D4E9FB0221A28D4600BDA2A0 /* AppDelegate.m in Sources */,
+				D4E9FB2621A28F0900BDA2A0 /* twoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
